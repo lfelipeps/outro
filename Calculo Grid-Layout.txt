@@ -1,0 +1,5 @@
+Container = 100%
+Colunas = 16
+Espaço = 0.65
+
+(Container / Colunas x 8) - (Espaço * 2)

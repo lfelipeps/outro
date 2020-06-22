@@ -1,0 +1,176 @@
+.intro-produtos{
+	background-image: url("../img/bg-produtos.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.produto-item{
+	padding-top: 60px;
+}
+
+.produto-icone{
+	background-color: black;
+	padding: 70px 0px;
+	text-align: center;
+}
+
+.foto{
+	height: 280px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 10px;
+}
+
+.foto-passeio{
+	background-image: url("../img/produtos/biketec-passeio-1.jpg");
+}
+
+.foto-esporte{
+	background-image: url("../img/produtos/biketec-esporte-1.jpg");
+}
+
+.foto-retro{
+	background-image: url("../img/produtos/biketec-retro-1.jpg");
+}
+
+.produto-item h2{
+	font-size: 36px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	margin-top: 120px;
+	text-shadow: 0 0 10px white;
+}
+
+.produto-item h2:after, .produto-item h2:before{
+	content: "";	
+	display: block;
+	width: 100px;
+	height: 4px;
+	background-color: white;
+	margin: auto;
+}
+
+.produto-info{
+	background-color: #000;
+	margin-bottom: 40px;
+}
+
+.produto-info p{
+	color: #FFF;
+	font-size: 20px;
+	line-height: 1.2em;
+	padding: 30px 50px;
+	height: 160px;
+	text-align: center;
+}
+
+.produto-info ul li{
+	background-color: #FEC63E;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	float: left;
+	width: 50%;
+	height: 60px;
+	line-height: 60px;
+}
+
+.baixo{
+	border-top: 2px solid black;
+}
+
+.esquerda{
+	border-right: 2px solid black;
+}
+
+.margin{
+	margin-bottom: 40px;
+}
+
+/*Orçamento*/
+.orcamento{
+	background-color: #000;
+	width: 100%;
+	margin-top: 60px;
+	padding: 30px;
+}
+
+.orcamento h2{
+	color: #FEC63E;
+}
+
+.orcamento h2:after{
+	background-color: #FEC63E;
+	margin-top: 5px;
+}
+
+.form label{
+	display: block;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.form input, .form textarea{
+	width: 100%;
+	border: 4px solid #FEC63E;
+	background: none;
+	color: #FFF;
+	padding: 5px 10px;
+	font-weight: bold;
+	outline: none;
+	margin-bottom: 15px;
+}
+
+.form textarea{
+	height: 100px;
+}
+
+
+.form .btn{
+	background: none;
+}
+
+.form .btn:hover{
+	color: #FFF;
+	border-color: #FFF;
+}
+
+.orcamento-dados{
+	color: #FFF;
+	padding-left: 40px;
+	font-family: Georgia;
+}
+
+.orcamento-dados h3{
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #FEC63E;
+	line-height: 25px;
+	font-weight: bold;
+}
+
+.orcamento-dados p{
+	display: block;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.monte{
+	margin-top: 40px;
+}
+
+.orcamento-dados ul li{
+	padding: 10px 15px;
+	width: 70%;
+}
+
+.orcamento-dados ul li:nth-child(odd){
+	background-color: #1d1d1d;
+}
